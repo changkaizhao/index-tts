@@ -1019,8 +1019,8 @@ class QwenEmotion:
 if __name__ == "__main__":
     # prompt_wav = "examples/voice_01.wav"
     # text = '欢迎大家来体验indextts2，并给予我们意见与反馈，谢谢大家。'
-    prompt_wav = "/home/roby/proj/video_translater/temp/7bKfOGc6CK4/Are we alone in the Universe？ Scientists search for exoplanets and habitable worlds [7bKfOGc6CK4]/clips/68.300-72.500.wav"
-    text = "欢迎大家来体验indextts2，并给予我们意见与反馈，谢谢大家。"
+    prompt_wav = "/home/roby/proj/index-tts/tmp/examples/47.400-69.100.wav"
+    text = "这里面有太多有趣的内容了。那我们先从**“上下文学习”（in-context learning）开始吧。这是一个显而易见的观点，但我觉得非常值得明确地说出来并好好思考**。当这些模型表现得最聪明的时候——也就是当我和它们对话时，我会产生一种感觉：“哇，另一端真的有一个在思考、在回应我的存在。”比如当它犯错时，它会说“哦，等等，那样想其实不对”，然后重新整理思路。所有这些令人印象深刻的表现，其实都发生在上下文学习的过程中。我觉得那一刻，你几乎能看见智能在行动。而这种“上下文学习”的能力，是通过预训练阶段的梯度下降（gradient descent）所形成的。也就是说，在大规模预训练的过程中，模型自发地学会了“元学习”（meta-learning）——而“上下文学习”正是这种元学习的产物。不过要注意的是：上下文学习本身并不是梯度下降。这就像人类一样：我们的“终身智能”（lifetime intelligence）确实是由进化塑造的，但我们在一生中实际发生的学习过程，却是通过另一种机制完成的。"
     tts = IndexTTS2(
         cfg_path="checkpoints/config.yaml",
         model_dir="checkpoints",
